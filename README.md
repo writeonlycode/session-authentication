@@ -1,4 +1,4 @@
-# Session Authentication
+# Session Authentication[^1]
 
 Session Based Authentication is an authentication strategy that uses sessions
 and cookies to authenticate a client. At the back-end, the server creates and
@@ -129,3 +129,9 @@ It just clears the session cookie and removes the session from the list of
 active sessions.
 
 And that's Session Based Authentication!
+
+[^1]: **Disclaimer:** The code presented above and in the source files doesn't
+  follow the security best practices that would be necessary in a real world
+  application. The purpose of the code is to be as simple as possible, so the
+  focus can be on the logic relevant to demonstrate the Session Based
+  Authentication strategy.
