@@ -1,0 +1,19 @@
+{
+  "name": "session-authentication",
+  "version": "0.1.0",
+  "description": "A project that demonstrates the basic elements of session authentication with JavaScript, Node and Fastify.",
+  "main": "index.js",
+  "repository": "git@github.com:writeonlycode/session-authentication.git",
+  "author": "Iago Bozza <iagobozza@writeonlycode.io>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^8.3.0",
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/session": "^10.1.1",
+    "fastify": "^4.13.0"
+  }
+}
